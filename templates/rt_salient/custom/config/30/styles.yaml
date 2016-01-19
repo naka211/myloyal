@@ -1,0 +1,5 @@
+preset: preset1
+accent:
+  color-1: '#ab8a80'
+expanded:
+  background-image: 'gantry-media://logo/img-02.jpg'

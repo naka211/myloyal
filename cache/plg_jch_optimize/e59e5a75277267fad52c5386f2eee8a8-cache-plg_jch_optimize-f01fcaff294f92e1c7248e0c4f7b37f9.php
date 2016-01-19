@@ -1,0 +1,13 @@
+<?php die("Access Denied"); ?>#x#a:2:{s:6:"output";s:0:"";s:6:"result";a:6:{s:9:"filemtime";i:1453117457;s:4:"etag";s:32:"cdb1ecc77789552f418b189707b55027";s:4:"file";a:2:{i:0;s:328:"[[JCH_e77e410d6c702df9f1693c11bb93b4f3]]
+[[JCH_e11cb687f0bad888eeaf3ac317d41d3c]]
+[[JCH_fa3a2b30bf64fd59df779881c5cb06f3]]
+[[JCH_fd6ecb0f29d8e4054542c141faca1e64]]
+[[JCH_d77d249120be1e662de37d299cf3d437]]
+[[JCH_3153f48c0dc538a4c94d23901564172f]]
+[[JCH_bb091a7dc52ec5b690d9bb1a38a8b8e9]]
+[[JCH_05586574562533c4407b7c36b0f3f7d1]]
+";i:1;s:164:"[[JCH_365fc1dedeabcf615f03ada5183b164f]]
+[[JCH_ff7a1edcb6efe3a44164f3604e9beedd]]
+[[JCH_e3c4ced8ab9456199b608ad51bcbd749]]
+[[JCH_ddfe76b61577e844210552148db2bd67]]
+";}s:11:"criticalcss";s:0:"";s:9:"spritecss";a:0:{}s:9:"font-face";a:0:{}}}

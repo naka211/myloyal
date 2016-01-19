@@ -1,0 +1,284 @@
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: coming_soon
+  timestamp: 1446851170
+children:
+  -
+    id: 56473484-dd0c-c65f-042e-888884e8885
+    type: section
+    subtype: false
+    title: Top
+    attributes:
+      boxed: 0
+    children:
+      -
+        id: 7d96f769-c57b-4db1-b880-0ced20ad4a52
+        type: grid
+        subtype: false
+        title: Untitled
+        attributes: {  }
+        children:
+          -
+            id: 3a84e14c-3332-41c0-be81-293b9cc60474
+            type: block
+            subtype: false
+            title: Untitled
+            attributes:
+              size: 100
+              variations: 'nomarginall nopaddingall'
+              extra: {  }
+            children:
+              -
+                id: 50d28cd4-eadd-4873-aa3d-bf80672c37db
+                type: pagecontent
+                subtype: system-messages
+                title: 'System Messages'
+                attributes:
+                  enabled: 1
+                children: {  }
+  -
+    id: 5146ebf2-fe84-aa62-bdf4-8178eab530f2
+    type: section
+    subtype: false
+    title: Navigation
+    attributes:
+      boxed: '0'
+      class: ''
+      extra: {  }
+    children:
+      -
+        id: accc11ae-db87-1095-4956-a819c8b28736
+        type: grid
+        subtype: false
+        title: Untitled
+        attributes: {  }
+        children:
+          -
+            id: 616b8b9c-10e2-41d2-b6f7-335484746cc0
+            type: block
+            subtype: false
+            title: Untitled
+            attributes:
+              variations: center
+              extra: {  }
+              size: 100
+            children:
+              -
+                id: f69641f7-55ac-40ae-b1f2-ac269bb72169
+                type: particle
+                subtype: logo
+                title: Logo
+                attributes:
+                  enabled: 1
+                  image: 'gantry-media://logo/logo.png'
+                children: {  }
+  -
+    id: 34ddef6d-ca01-520a-7c37-5405831fb9b9
+    type: section
+    subtype: false
+    title: Header
+    attributes:
+      boxed: 0
+    children: {  }
+  -
+    id: 89613484-dd0c-c65f-042e-888884e8885
+    type: section
+    subtype: false
+    title: Slideshow
+    attributes:
+      boxed: 0
+    children: {  }
+  -
+    id: 83180de7-b31e-6f28-c924-34ac9093da3c
+    type: section
+    subtype: false
+    title: Showcase
+    attributes:
+      boxed: 0
+    children: {  }
+  -
+    id: 844683a4-ef82-00c1-2afb-4bfb7337a355
+    type: section
+    subtype: false
+    title: Above
+    attributes:
+      boxed: 0
+    children: {  }
+  -
+    id: 77a1cb12-8e70-20ff-b72c-4e3385de5f18
+    type: section
+    subtype: false
+    title: Utility
+    attributes:
+      boxed: 0
+    children: {  }
+  -
+    id: f32017fe-a739-4979-c73d-687853453774
+    type: section
+    subtype: false
+    title: Feature
+    attributes:
+      boxed: 0
+    children: {  }
+  -
+    id: b2ddb6cc-4e18-db7b-8353-7a18cfc4ebd9
+    type: container
+    subtype: false
+    title: Untitled
+    attributes:
+      boxed: 0
+    children:
+      -
+        id: 33159d20-5c69-f066-1158-a8f47ae34f55
+        type: grid
+        subtype: false
+        title: Untitled
+        attributes: {  }
+        children:
+          -
+            id: ecb7567d-933e-e5af-6d41-52f0a9263da7
+            type: block
+            subtype: false
+            title: Untitled
+            attributes:
+              size: 20
+            children:
+              -
+                id: 55a00907-bc7e-9771-41b2-1e84efc8aa7c
+                type: section
+                subtype: false
+                title: Sidebar
+                attributes: {  }
+                children: {  }
+          -
+            id: a350f918-4336-dfb2-f7e2-37dd04d93ae9
+            type: block
+            subtype: false
+            title: Untitled
+            attributes:
+              size: 60
+            children:
+              -
+                id: a2dc867f-a056-275b-adc4-0ca00930718a
+                type: section
+                subtype: false
+                title: Mainbar
+                attributes: {  }
+                children: {  }
+          -
+            id: a6e180d1-8951-9b7d-93b8-fe11f2d8ec6e
+            type: block
+            subtype: false
+            title: Untitled
+            attributes:
+              size: 20
+            children:
+              -
+                id: 9a4cdf17-1214-5818-2d87-71d1eaccfde5
+                type: section
+                subtype: false
+                title: Aside
+                attributes: {  }
+                children: {  }
+  -
+    id: c01c2943-68dc-23d3-5bcc-f732ec864379
+    type: section
+    subtype: false
+    title: Expanded
+    attributes:
+      boxed: 0
+    children: {  }
+  -
+    id: 32c99089-b8da-5b91-8cdf-83058d373857
+    type: section
+    subtype: false
+    title: Extension
+    attributes:
+      boxed: 0
+    children: {  }
+  -
+    id: 46473484-bd0c-c65f-042e-2fdd14e8885
+    type: section
+    subtype: false
+    title: Bottom
+    attributes:
+      boxed: 0
+    children: {  }
+  -
+    id: 9f9f51ee-f0c1-3a1b-4359-c9e5c9497d1f
+    type: container
+    subtype: false
+    title: Untitled
+    attributes:
+      boxed: 0
+    children:
+      -
+        id: bc638512-e5b5-30f5-38e5-15e3a51d1be2
+        type: grid
+        subtype: false
+        title: Untitled
+        attributes: {  }
+        children:
+          -
+            id: 3a02811d-feb5-0f49-87ca-d3c81ce74db6
+            type: block
+            subtype: false
+            title: Untitled
+            attributes:
+              size: 75
+            children:
+              -
+                id: 0907d804-f831-7e89-2383-0df6a94a75bb
+                type: section
+                subtype: false
+                title: Footer
+                attributes: {  }
+                children: {  }
+          -
+            id: 3299d4cf-8673-6a6f-0727-41ba8e0cc6b0
+            type: block
+            subtype: false
+            title: Untitled
+            attributes:
+              size: 25
+            children:
+              -
+                id: da7a67bb-35d9-1530-60e0-d58eb0cbc7fb
+                type: section
+                subtype: false
+                title: Footside
+                attributes: {  }
+                children: {  }
+  -
+    id: 1e0e4669-e192-e9e7-7eee-794b2c762968
+    type: section
+    subtype: false
+    title: Copyright
+    attributes:
+      boxed: 0
+    children: {  }
+  -
+    id: bb98d3a4-2b3c-248f-551b-e3958f018aec
+    type: offcanvas
+    subtype: false
+    title: Offcanvas
+    attributes:
+      name: 'Offcanvas Section'
+      boxed: 0
+    children: {  }
+  -
+    id: 3a2a116a-420f-3e9d-4152-c6e6f2fe8313
+    type: atoms
+    subtype: false
+    title: Atoms
+    attributes:
+      name: 'Atoms Section'
+      boxed: 0
+    children:
+      -
+        id: 4af855cc-fb6f-41b2-866e-ecdb6ae006fb
+        type: grid
+        subtype: false
+        title: Untitled
+        attributes: {  }
+        children: {  }

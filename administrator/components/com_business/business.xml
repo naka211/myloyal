@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.2.0" method="upgrade">
+
+	<name>COM_BUSINESS</name>
+	<!-- The following elements are optional and free of formatting constraints -->
+	<creationDate>10 2014</creationDate>
+	<author>Tuan Vo</author>
+	<authorEmail>tuan@mywebcreations.dk</authorEmail>
+	<license>License Info</license>
+	<!--  The version string is recorded in the components table -->
+	<version>0.0.1</version>
+	<!-- The description is optional and defaults to the name -->
+
+	<!-- Site Main File Copy Section -->
+	<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /site/ in the package -->
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>business.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+	</files>
+
+	<languages folder="site/language">
+        <language tag="en-GB">en-GB/en-GB.com_business.ini</language>
+    </languages>
+
+	<media destination="com_business" folder="media">
+		<filename>index.html</filename>
+		<folder>images</folder>
+	</media>
+
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu link="index.php?option=com_business">COM_business_MENU</menu>   
+                <menu link="index.php?option=com_business">COM_business_MENU</menu>                         
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+				to copy FROM in the package to install therefore files copied
+				in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>business.php</filename>
+			<filename>controller.php</filename>
+			<!-- SQL files section -->
+			<folder>sql</folder>
+			<!-- tables files section -->
+			<folder>tables</folder>
+			<!-- models files section -->
+			<folder>models</folder>
+			<!-- views files section -->
+			<folder>views</folder>
+			<!-- controllers files section -->
+			<folder>controllers</folder>
+		</files>
+		<languages folder="admin/language">
+            <language tag="en-GB">en-GB/en-GB.com_business.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_business.sys.ini</language>
+        </languages>
+	</administration>
+
+</extension>

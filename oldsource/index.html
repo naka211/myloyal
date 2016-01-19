@@ -1,0 +1,283 @@
+<!doctype html>
+<!--[if lt IE 9]>      <html class="no-js lt-ie9 lt-ie10"> <![endif]-->
+<!--[if lt IE 10]>     <html class="no-js lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MyLoyal - Danmarks mest simple loyalitetsprogram kommer snart</title>
+
+        <meta name="title" content="">
+        <meta name="description" content="">
+
+        <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1, initial-scale=1, minimum-scale=1" />
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="styles/loader.min.css"/>
+        <link rel="stylesheet" href="styles/main.min.css"/>
+
+        <link rel="stylesheet" href="styles/custom.css">
+
+        <script src="scripts/modernizr.custom.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+        <!--[if lte IE 8]>
+        <script src="scripts/respond.min.js"></script>
+        <![endif]-->
+
+        <script>
+            var miniGoOptions = {
+                // You can adjust your website width, ex: '60%' or '800px'
+                siteWidth: '',
+                theme: {
+                    // Set to true to add a translucent background behind each page
+                    contentBackground: false,
+                    // Possible options are 'default' or 'light'
+                    skin: 'default'
+                },
+
+                countdown: {
+                    // Possible options are 'default' or 'piechart'
+                    type: 'default',
+                    // The date when the countdown started. Used by the progress bars. 24 Hour format (00 to 23): Month Day, Year Hours:Minutes
+                    startDate: new Date("October 5, 2014 00:00"),
+                    // The target date we're counting down to. 24 Hour format (00 to 23): Month Day, Year Hours:Minutes
+                    targetDate: new Date("April 20, 2015 11:13")
+                },
+
+                background: {
+                    // If you want to use gradients you have to fill all 'gradientLoade' fields
+                    gradientLoader: {
+                        // Color in hex format '#000000'
+                        color1: '',
+                        // Color in hex format '#ffffff'
+                        color2: '',
+                        // Gradient angle for example: '270'
+                        angle: ''
+                    },
+                    gradientBackground: {
+                        // Color in hex format '#000000'
+                        bgColor1: '',
+                        // Color in hex format '#ffffff'
+                        bgColor2: '',
+                        // Gradient angle for example: '270'
+                        bgAngle: '',
+                        // Tweak gradient opacity from '0' to '1'
+                        opacity: ''
+                    },
+                    // Main background color
+                    color: '#000',
+                    // Path to pattern overlay or empty if not needed. Use '' for empty.
+                    patternOverlay: 'images/patterns/oblique-l-1.png',
+                    // Sets the opacity of the pattern overlay. 0 is completely transparent, 1.0 is fully opaque.
+                    patternOverlayOpacity: 0.2,
+                    // Possible options are 'slideshow' or 'video'. Enter '' if no slideshow/video is desired as background.
+                    type: 'slideshow',
+
+                    slideshow: {
+                        // Type of transition effect. Possible options are 'kenburns', 'fade' or 'continuousFade'.
+                        type: 'kenburns',
+                        // Time in seconds between image changes
+                        duration: 10,
+
+                        // Ken Burns animation settings
+                        kenburns: {
+                            // Minimum and maximum scale of the image. It will be randomized for every frame.
+                            minScale: 1.2,
+                            maxScale: 1.7,
+                            // Minimum and maximum movement of the image, in percent. It will be randomized for every frame. Note that this is also limited by the scale because the image needs to stay within the viewport.
+                            minMove: 5,
+                            maxMove: 15
+                        }
+                    },
+
+                    video: {
+                        // Possible options are 'local' or 'youtube'
+                        source: 'local',
+                        // Fallback image for browsers that can't play video
+                        imageFallback: 'video/bg.jpg',
+                        // Sets the volume of the video. Value range 0 to 100.
+                        volume: 0,
+
+                        // Configure the video files if you selected 'local' as video source
+                        localFiles: {
+                            // H.264 (mp4) video format file. This one is required because we use it to fall back to Flash playback when HTML5 video support is missing. For example, Firefox only supports this format on Windows so on other systems it will fallback to Flash playback which is a bit slower.
+                            mp4: 'video/bg.mp4',
+                            // Optional. OGG Video is optional but useful because it's played natively by Firefox on OSX and Linux. Enter '' if you don't have this format.
+                            ogg: 'video/bg.ogv',
+                            // Optional. WebM files are generally smaller and faster than H.264 and are played by Chrome, Firefox, Opera and Android browsers (which also support H.264)
+                            webm: 'video/bg.webm',
+                        },
+
+                        youtube: {
+                            // Enter the URL of the Video or Playlist
+                            url: 'http://www.youtube.com/watch?v=ab0TSkLe-E0',
+
+                            // The options below allow you to play only a part of a video. For playlists it will only work for the first video.
+                            // If you dont't want the video to start from the very beginning, enter the time offset in seconds.
+                            startAt: 0,
+                            // If you dont't want the video to end at the very end, enter the time offset FROM THE BEGINNING of the video, in seconds. Otherwise leave it at 0.
+                            endAt: 200,
+                        }
+                    }
+                },
+                audio: {
+                    // Source for your audio file, http://website.com/audioFileName.mp3
+                    src: '',
+                    // Sets the audio volume. Value range 0 to 1.
+                    volume: '0.2'
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="loader">
+            <img class="loader-logo" src="images/logo.png" width="300" height="84" alt="MyLoyal">
+            <div class="bubblingG">
+                <span id="bubblingG_1"></span>
+                <span id="bubblingG_2"></span>
+                <span id="bubblingG_3"></span>
+            </div>
+        </div>
+
+        <div class="site-wrapper">
+            <div class="site-page site-front site-page--active">
+
+                <div class="grid">
+                    <div class="grid__item one-whole push--bottom">
+                        <img src="images/logo.png" width="300" height="84" alt="MyLoyal">
+                    </div>
+
+                    <div class="grid__item one-whole">
+                        <h3>Danmarks mest simple loyalitetsprogram</h3>
+                    </div>
+
+                    <div class="grid__item one-whole">
+                        <h2>Kommer snart</h2>
+                    </div>
+
+                    <div class="grid__item one-whole push--top">
+                        <div class="form-flip push--top">
+                            <button class="form-flip__enabler btn btn--full">Hold mig opdateret</button>
+
+                            <div class="form-flip__target">
+                                <form class="form-ajax" data-success-response="success" action="mailListHandler.php" method="post">
+                                    <div class="input-group">
+                                        <input class="text-input" name="email" type="email" placeholder="Din email adresse" data-msg-required="Denne felt er obligatorisk" data-msg-email="Indtast venligst en gyldig email-adresse." required>
+                                        <div class="input-group-addon">
+                                            <button class="btn btn--font-black" type="submit" autocomplete="off"><span>GO</span><i class="form-spinner fa fa-spinner"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <input type="hidden" name="subscribe">
+
+                                    <input type="text" name="important-info">
+                                    <!-- Don't remove the above field. It is a decoy to prevent spam -->
+                                </form>
+                            </div>
+
+                            <button class="form-flip__close btn btn--full">Tak</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="aboutPage" class="site-page site-page--from-left">
+                <h1>Om MyLoyal</h1>
+
+                <p>Beskrivelse kommer snart.</p>
+
+            </div>
+
+            <div id="contactPage" class="site-page site-page--from-right">
+                <h1>Kontakt os</h1>
+
+                <div class="grid">
+                    <div class="grid__item one-whole">
+                        <div class="contact-info"><i class="fa fa-phone"></i>+45 60 48 39 72</div>
+                        <div class="contact-info"><i class="fa fa-envelope-o"></i><a href="mailto:mail@website.web">peter.bodskov@me.com</a></div>
+                    </div>
+                    <div class="grid__item one-whole push-half--top">
+                        <div class="contact-info"><i class="fa fa-map-marker"></i>Birkevang 20 C, 3500 Værløse, Danmark</div>
+                    </div>
+                </div>
+
+                <form id="contactForm" data-msg-success="Beskeden er sendt!"" class="form-ajax" data-success-response="success" action="mailListHandler.php" method="post">
+                    <div class="grid">
+                        <div class="grid__item one-half palm-one-whole push--top">
+                            <input class="text-input" name="name" type="text" placeholder="Dit navn" data-msg-required="Dette felt er påkrævet." required>
+                        </div>
+                        <div class="grid__item one-half palm-one-whole push--top">
+                            <input class="text-input" name="email" type="email" placeholder="Din email adresse" data-msg-required="Dette felt er påkrævet." data-msg-email="Indtast venligst en gyldig e-mail-adresse." required>
+                        </div>
+                        <div class="grid__item one-whole push--top">
+                            <textarea rows="6" name="message" placeholder="Besked" data-msg-required="Dette felt er påkrævet." required></textarea>
+                        </div>
+                        <div class="grid__item one-whole push--top">
+                            <button class="btn btn--font-bold" type="submit" autocomplete="off"><span>SEND BESKED</span><i class="form-spinner fa fa-spinner"></i></button>
+                        </div>
+                    </div>
+                    <input type="hidden" name="contact">
+
+                    <input type="text" name="important-info">
+                    <!-- Don't remove the above field. It is a decoy to prevent spam -->
+                </form>
+            </div>
+        </div>
+
+        <div class="nav-social">
+            <a href="#" title="Følg os på Twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" title="Følg os på Facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" title="Join os på LinkedIn"><i class="fa fa-linkedin"></i></a>
+
+            <!-- If you want audio play button, decomment and remove autoplay from #audio-player -->
+            <!-- <a href="javascript:void(0);" class="setup-audio" title="Your title"><i class="fa fa-play"></i></a> -->
+        </div>
+
+        <div class="nav-left">
+            <a href="#aboutPage" title="Om MyLoyal" class="site-page__trigger"><i class="fa fa-info-circle"></i></a>
+        </div>
+        <div class="nav-right">
+            <a href="#contactPage" title="Kontakt" class="site-page__trigger"><i class="fa fa-envelope"></i></a>
+        </div>
+        <div class="nav-close">
+            <a href="#" title="Close" class="site-page__close"><i class="fa fa-times-circle"></i></a>
+        </div>
+
+        <!--<figure class="bg-wrapper">
+            <img src="images/bg/bg1.jpg" alt="Optional alt text goes here">
+            <img data-src="images/bg/bg3.jpg" alt="">
+            <img data-src="images/bg/bg2.jpg" alt="">
+            <img data-src="images/bg/bg5.jpg" alt="">
+            <img data-src="images/bg/bg4.jpg" alt="">
+            <img data-src="images/bg/bg6.jpg" alt="">
+        </figure>-->
+
+        <div class="gradient-bg--wrapper"></div>
+
+        <div id="audio-track">
+            <!-- You can add attributes like: autoplay and loop -->
+            <audio id="audio-player" loop><source src=""></source></audio>
+        </div>
+
+        <!--[if lte IE 8]><script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
+        <!--[if gt IE 8]><!--><script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script><!--<![endif]-->
+
+        <script src="scripts/flipclock.min.js"></script>
+
+        <!--[if gt IE 8]><!-->
+        <script src="scripts/jquery.easypiechart.min.js"></script>
+        <!--<![endif]-->
+
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+
+        <script src="scripts/main.min.js"></script>
+
+        <!--[if lte IE 9]>
+        <script src="scripts/jquery.placeholder.min.js"></script>
+        <![endif]-->
+
+        <!-- Google Analytics code goes below this line -->
+</body>
+</html>

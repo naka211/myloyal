@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('/templates/beez3/fonts/HelveticaNeue.woff') format('woff'),
+       url('/templates/beez3/fonts/HelveticaNeue.ttf') format('truetype'),
+       url('/templates/beez3/fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue_0';
+  src: url('/templates/beez3/fonts/HelveticaNeue_0.eot');
+  src: url('/templates/beez3/fonts/HelveticaNeue_0.eot?#iefix') format('embedded-opentype'),
+       url('/templates/beez3/fonts/HelveticaNeue_0.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeue-Thin';
+  src: url('/templates/beez3/fonts/HelveticaNeue-Thin.eot');
+  src: url('/templates/beez3/fonts/HelveticaNeue-Thin.eot?#iefix') format('embedded-opentype'),
+       url('/templates/beez3/fonts/HelveticaNeue-Thin.woff2') format('woff2'),
+       url('/templates/beez3/fonts/HelveticaNeue-Thin.woff') format('woff'),
+       url('/templates/beez3/fonts/HelveticaNeue-Thin.ttf') format('truetype'),
+       url('/templates/beez3/fonts/HelveticaNeue-Thin.svg#HelveticaNeue-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html,body{padding:0;margin:0}
+body{background-color:#f5f5f5; font-family: 'HelveticaNeue_0'; font-size:14px;line-height:22px;color:#666;position:relative;-webkit-text-size-adjust:none; border-top: 5px solid #ab8a80;}
+body *{text-shadow:none}
+h1,h2,h3,h4,h5,h6{line-height:1; margin:20px 0 10px; color: #000; font-family: 'HelveticaNeue-Thin';}
+h1,h2,h3{font-size:18px}
+h4,h5,h6{font-size:16px}
+h2 {font-size: 40px;}
+p{margin:0 0 10px}
+a,a:link,a:active,a:visited,a:hover{color:inherit;}
+a:focus, a:hover {text-decoration: none;}
+.header,.content,.footer{text-align:center}
+.header,.footer{background:#777;font-size:16px;font-weight:700;color:#fff;line-height:60px;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;height:60px;padding:0 50px}
+.clear {clear: both;}
+.mb200 {margin-bottom: 200px;} .mt50 {margin-top: 50px;} .mb30 {margin-bottom: 30px;} .mt30 {margin-top: 30px;} .mb500 {margin-bottom: 500px;}
+.select-info h2 {
+	color: #f7901e;
+	font-size: 25px;
+	font-weight: 600;
+}
+.top {
+	padding: 30px 0;
+	margin-top: 50px;
+}
+footer {
+	background: #000;
+	color: #fff;
+	padding: 20px 0;
+}
+footer p {
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+ul.list-social {
+	list-style: none;
+	margin-top: 10px;
+}
+ul.list-social li {
+	display: inline-block;
+	margin-right: 5px;
+}
+.frm-register-box {
+	padding: 40px 65px;
+	background: #fff;
+	border: 1px solid #e2e2e2;
+	min-height: 642px;
+	margin-right: 10px;
+}
+.map img {
+	width: 100%;
+	border: 1px solid #e2e2e2;
+}
+.frm-register-box .form-control {
+	height: 45px;
+}
+.btnPayment {
+	margin-top: 15px;
+	display: block;
+	width: 100%;
+	background: #f7901e;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10px;
+}
+.btnGetgoing {
+	margin-top: 15px;
+	background: #f7901e;
+	color: #fff !important;
+	text-transform: uppercase;
+	padding: 10px 60px;
+}
+.underline {
+	text-decoration: underline;
+}
+.header2 {
+	background: #fff;
+	padding: 20px 0;
+}
+.header2 .list-social {
+	margin-top: 25px;
+}
+.welcome-content {
+	width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+.welcome-content h2 {
+	font-size: 40px;
+}
+.text-right {
+	text-align: right;
+}
+ul.list-info {
+	padding-left: 15px;
+}
+.title {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+
+
+
+@media (max-width: 667px){
+	
+}
+
+@media (max-width: 375px){
+	
+}

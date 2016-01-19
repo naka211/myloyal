@@ -1,0 +1,401 @@
+/**
+ * @package Helix Framework
+ * @author JoomShaper http://www.joomshaper.com
+ * @copyright Copyright (c) 2010 - 2014 JoomShaper
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 or later
+*/
+
+@import 'variables';
+@import 'mixins';
+
+
+// Anchor
+a{
+	color: @major_color;
+	&:hover {
+		color: darken(@major_color, 10%);
+	}
+}
+
+// Megamenu 
+.sp-megamenu-parent {
+	>li {
+		&.active>a,
+		&:hover>a {
+			color: @major_color!important;
+		}
+	}
+
+	.sp-dropdown {
+		li.sp-menu-item {
+			>a {
+
+				&:hover {
+					color: @major_color;
+				}
+			}
+			&.active>a {
+				color: @major_color;
+			}
+		}
+	}
+
+}
+
+// Off Canvas
+#offcanvas-toggler {
+	>i {
+		color: @text_color;
+		&:hover {
+			color: @major_color;
+		}
+	}
+}
+
+//Button
+.btn-primary,
+.sppb-btn-primary {
+	border-color: darken(@major_color, 6%);
+	background-color: @major_color;
+
+	&:hover {
+		border-color: darken(@major_color, 15%);
+		background-color: darken(@major_color, 10%);
+	}
+}
+
+// Topbar Social
+ul.social-icons {
+
+	>li {
+
+		a {
+
+			&:hover {
+				color: @major_color;
+			}
+		}
+	}
+}
+
+// Page Title
+.sp-page-title {
+	background: @major_color;
+}
+
+// Body Innerwrapper
+
+.layout-boxed .body-innerwrapper {
+	background: @bg_color;
+}
+
+// Module
+.sp-module {
+	ul {
+		>li {
+			>a {
+				color: @text_color;
+				&:hover {
+					color: @major_color;
+				}
+			}
+		}
+	}
+
+	.latestnews {
+		>div {
+			>a {
+				color: @text_color;
+				&:hover {
+					color: @major_color;
+				}
+			}
+		}
+	}
+
+	.tagscloud {
+		.tag-name {
+			&:hover {
+				background: @major_color;
+			}	
+		}
+	}
+}
+
+// sp Simple Portfolio
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+	    color: @major_color;
+    border-color: @major_color;
+}
+
+.portfolio-style-1 .sp-simpleportfolio-items .sp-simpleportfolio-overlay-wrapper .sp-simpleportfolio-btns a.btn-view i, .portfolio-style-1 .sp-simpleportfolio-items .sp-simpleportfolio-overlay-wrapper .sp-simpleportfolio-btns a.btn-zoom i{
+	color: @major_color;
+}
+
+.sp-simpleportfolio .sp-simpleportfolio-item:hover .sp-simpleportfolio-info h3 > a {
+	color: @major_color!important;
+}
+
+.sp-simpleportfolio .sp-simpleportfolio-item:hover .sp-simpleportfolio-info {
+	border-bottom: 1px solid @major_color!important;
+}
+
+// Search
+.search {
+	.btn-toolbar {
+		button {
+			background: @major_color;
+		}
+	}
+}
+
+
+// Blog
+.post-format {
+	background: @major_color;
+}
+
+.voting-symbol{
+	span.star.active:before{
+		color: @major_color;
+	}
+}
+
+.sp-rating {
+	span.star:hover:before,
+	span.star:hover ~ span.star:before {
+		color: darken(@major_color, 10%);
+	}
+}
+
+.entry-link,
+.entry-quote {
+	background: @major_color;
+}
+
+blockquote {
+	border-color: @major_color;
+}
+
+.carousel-left,
+.carousel-right {
+
+	&:hover {
+		background: @major_color;
+	}
+}
+
+// Footer
+#sp-footer {
+	background: @major_color;
+}
+
+// Comingsoon
+
+
+// Pagination 
+.pagination>li>a,
+.pagination>li>span {
+	color: @text_color;
+	&:hover,
+	&:focus {
+		color: @text_color;
+	}
+}
+
+.pagination>.active>a,
+.pagination>.active>span {
+	border-color: @major_color;
+	background-color: @major_color;
+	&:hover,
+	&:focus {
+		border-color: @major_color;
+		background-color: @major_color;
+	}
+}
+.sppb-progress-bar span.progress-percent{
+	color: @major_color;
+}
+
+.ns2-art-pagination.nssp2-controllers span.active{
+	background: @major_color!important;
+}
+.sppb-pricing-box:hover .sppb-pricing-header .sppb-pricing-title{
+	background: @major_color!important;
+}
+.sppb-pricing-box:hover .sppb-pricing-header .sppb-pricing-price{
+	color: @major_color;
+	trasition:.5s;
+}
+.sppb-pricing-footer .sppb-btn-default{
+	color: @major_color!important;
+}
+.sppb-progress-bar span.progress-percent{
+	color: @major_color;
+}
+
+.ns2-art-pagination.nssp2-controllers span.active{
+	background: @major_color!important;
+}
+
+.sppb-addon-persion:hover .sppb-person-information span.sppb-person-name {
+	color: @major_color;
+}
+
+.sppb-person-social-icons ul.sppb-person-social a i:hover {
+color: @major_color;
+}
+
+.portfolio-style-2 .sp-simpleportfolio-items .sp-simpleportfolio-overlay-wrapper:hover h3.sp-simpleportfolio-title a {
+	color: @major_color;
+}
+
+.portfolio-style-2 .sp-simpleportfolio-items .sp-simpleportfolio-overlay-wrapper .sp-simpleportfolio-btns a.btn-zoom i:hover {
+	color: @major_color;
+}
+.portfolio-style-2 .sp-simpleportfolio-items .sp-simpleportfolio-overlay-wrapper .sp-simpleportfolio-btns a.btn-view i:hover {
+	color: @major_color;
+} 
+
+.imago-widgets ul.imago-social-list li a {
+	background: @major_color;
+}
+
+.ns2-link-date span {
+	color: @major_color;
+}
+
+.ns2-links-wrap .ns2-title a:hover{
+color: @major_color;
+}
+
+.section-color{
+	background: @major_color;
+}
+.sppb-btn-default:hover {
+	color: @major_color!important;
+}
+
+.person-style-3 {
+	.sppb-progress-bar {
+		background-color: @major_color!important;
+	}
+}
+
+.service-style-1 .sppb-addon-feature .sppb-icon span {
+	border-color:@major_color;
+	border: 1px solid @major_color;
+	color: @major_color;
+}
+
+.number-style-1 .sppb-addon-feature .sppb-feature-box-title {
+	color: @major_color!important;
+}
+div.k2TagCloudBlock a:hover{
+	color: @major_color;
+}
+
+#services-section .services-box .services-post .up-box i {
+	color: @major_color;
+}
+
+#services-section .services-box .services-post:hover .up-box {
+  background: @major_color;
+}
+
+
+.sp-megamenu-parent .sp-dropdown .sp-dropdown-inner {
+	border-top: 2px solid @major_color;
+}
+
+.slider-one a.slider-btn:hover{
+	border: 2px solid @major_color!important;
+}
+
+.rev_slider_wrapper .bullet:hover {
+	background: @major_color!important;
+	border-color: @major_color!important;
+	opacity: 1;
+} 
+
+.rev_slider_wrapper .tp-bullets .selected {
+	background: @major_color!important;
+	border-color: @major_color!important;
+	opacity: 1;
+}
+
+#sp-header .logo p {
+	color: @major_color!important;
+}
+
+.search-custom .search input.inputbox {
+	border: 4px solid @major_color!important;
+}
+
+.search-custom .sp-dropdown .button i {
+	color: @major_color!important;
+}
+
+.sppb-btn-success:hover {
+	background: none;
+	border-color: @major_color!important;
+	color: @major_color!important;
+}
+.sppb-btn-footer-social{
+    background: @major_color!important;
+}
+li.onepage-nav a.active{
+	color: @major_color!important;
+}
+
+.tagspopular ul li a:hover {
+	color: @major_color!important;
+}
+
+
+.imago-feature span{
+	background: @major_color!important;
+}
+
+input:focus:invalid:focus, textarea:focus:invalid:focus, select:focus:invalid:focus {
+	border-color: @major_color!important;
+	box-shadow: none;
+}
+
+.imago-app-btn {
+	background: @major_color!important;
+}
+
+.custom-white-big-preset{
+	color: @major_color!important;
+}
+
+.onepage-classic ul.sp-megamenu-parent li:hover a{
+	color: @major_color!important;
+}
+
+#about-section2 .about-box .about-post a:hover, #about-section2 .about-box .about-post a.active{
+	background: @major_color!important;
+}
+
+#about-section2 .content-tab .tab-cont h2{
+	color: @major_color!important;
+}
+
+.sppb-testimonial-pro .sppb-testimonial-client strong{
+	color: @major_color!important;
+}
+
+body.onepage-classic .sticky-wrapper #sp-menu ul li.current a {
+	color: @major_color!important;
+}
+
+.sticky-wrapper #sp-menu .current a {
+	color: @major_color!important;
+}
+
+.menu-underline .sp-dropdown-inner .sp-menu-item a.sp-group-title{
+	border-bottom: 1px solid @major_color;	
+}
+

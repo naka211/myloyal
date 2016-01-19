@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field
+				name="id"
+                                type="text"
+				readonly="readonly"
+				/>
+		<field
+				name="businessId"
+				type="text"
+                                readonly="readonly"
+				label="COM_BUSINESS_BUSINESS_BUSINESS_ID_LABEL"
+				description="COM_BUSINESS_BUSINESS_BUSINESS_ID_DESC"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+                <field
+				name="title"
+				type="text"
+                                
+				label="COM_BUSINESS_BUSINESS_BUSINESS_TITLE_LABEL"
+				description="COM_BUSINESS_BUSINESS_BUSINESS_TITLE_DESC"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+                <field
+				name="content"
+				type="text"
+                                
+				label="COM_BUSINESS_BUSINESS_BUSINESS_CONTENT_LABEL"
+				description="COM_BUSINESS_BUSINESS_BUSINESS_CONTENT_DESC"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+                <field
+				name="point"
+				type="text"
+                                
+				label="COM_BUSINESS_BUSINESS_BUSINESS_POINT_LABEL"
+				description="COM_BUSINESS_BUSINESS_BUSINESS_POINT_DESC"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+                <field
+				name="stamp"
+				type="text"
+                                
+				label="COM_BUSINESS_BUSINESS_BUSINESS_STAMP_LABEL"
+				description="COM_BUSINESS_BUSINESS_BUSINESS_STAMP_DESC"
+				size="40"
+				class="inputbox"
+				default=""
+				/>
+	</fieldset>
+</form>
